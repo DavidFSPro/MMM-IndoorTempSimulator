@@ -13,14 +13,15 @@ Navigate into your MagicMirror's `modules` folder and execute `git clone https:/
 
 To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
-modules: [
+modules: 
+[
 	{
-			module: "MMM-IndoorTempSimulator",
-			config:
-			{
-				temp: 19
-			}
-		},
+		module: "MMM-IndoorTempSimulator",
+		config:
+		{
+			temp: 19
+		}
+	},
 ]
 ````
 
