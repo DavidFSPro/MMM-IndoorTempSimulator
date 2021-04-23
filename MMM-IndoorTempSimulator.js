@@ -1,9 +1,16 @@
-/* Magic Mirror
- * Module: MMM-IndoorTemperature
- *
- * By David M
- * FabLab LabHidouille by Familles Solidaires.
- */
+/* global Module */
+
+/*  Magic Mirror
+    Module: MMM-IndoorTemperature
+   
+    David / FabLab LabHidouille by Familles Solidaires
+
+    Created : 20-04-2021
+    Revised : 21-04-2021
+  
+  MIT Licensed.
+*/
+
 Module.register("MMM-IndoorTempSimulator", 
 {
 	// Default module config.
